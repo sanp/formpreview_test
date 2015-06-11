@@ -1,5 +1,5 @@
 # preview.py
-from django.contrib.formtools.preview import FormPreview
+from formtools.preview import FormPreview
 from django.http import HttpResponseRedirect
 from .models import Game
 from .forms import GameForm

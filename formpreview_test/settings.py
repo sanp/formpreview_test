@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.formtools', # For generating form-preview pages
+    'formtools', # For generating form-preview pages
     'django.contrib.humanize', # For number formatting
     'games',
 )
