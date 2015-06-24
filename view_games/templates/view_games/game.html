@@ -1,0 +1,20 @@
+{% load humanize %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>View game</title>
+  </head>
+  <body>
+    
+    <h1>Your game details</h1>
+
+      <div>
+        <p>Location: {{ game.location }}</p>
+        <p>Game Date: {{ game.game_date|date:"l, F d, Y" }}</p>
+        <p>Game Type: {{ game.get_game_display }}</p>
+      </div>
+
+  </body>
+</html>

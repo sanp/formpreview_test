@@ -1,0 +1,19 @@
+{% if game_list %}
+
+<p>Select a game</p>
+
+<div>
+
+  {% for game in game_list %}
+    <a href="game/{{ game }}/">{{ game }}</a><br />
+  {% endfor %}
+
+</div>
+
+{% else %}
+
+  <div>
+    <p>Oops! No games are available.</p>
+  </div>
+
+{% endif %}

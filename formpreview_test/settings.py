@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'formtools', # For generating form-preview pages
     'django.contrib.humanize', # For number formatting
     'games',
+    'view_games',
 )
 
 MIDDLEWARE_CLASSES = (
